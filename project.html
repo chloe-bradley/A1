@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <html>
 <body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+.topnav a:hover {
+  background-color: #4d5c8f;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4c6faf;
+  color: white;
+}
+  </style>
   
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -54,6 +74,14 @@ body {font-family: "Lato", sans-serif;}
 </style>
 </head>
 <body>
+  
+  <div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="profile.html">Profile</a>
+  <a class="active" href="project.html">Project Idea</a>
+    <img src="https://static.thenounproject.com/png/153079-200.png" width="45" height="45">
+</div>
 
 <div class="tab">
   <button class="tablinks" onclick="openInfo(event, 'Overview')" id="defaultOpen">Overview</button>
